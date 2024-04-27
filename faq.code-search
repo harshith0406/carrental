@@ -1,0 +1,53 @@
+# Query: faq
+# ContextLines: 1
+
+18 results - 4 files
+
+admin\manage-pages.php:
+  141                    <option value="manage-pages.php?type=aboutus">aboutus</option> 
+  142:                   ?<option value="manage-pages.php?type=faqs">FAQs</option>
+  143                  </select>
+
+  166  			
+  167: 				case "faqs" :
+  168: 									echo "FAQs";
+  169  									break;
+
+assets\css\style.css:
+    55  	10. Contact-Us-Page
+    56: 	11. FAQ-Page
+    57  	
+
+  2936  /*=================
+  2937: 	11. FAQ-Page
+  2938  ===========================*/
+  2939: .faq_category {
+  2940  	position:relative;
+
+  2944  }
+  2945: .faq_text {
+  2946  	padding:20px 0;
+  2947  }
+  2948: .knowledge_base_faq {
+  2949    background: rgba(0, 0, 0, 0) url("../images/knowledge_base_bg.jpg") no-repeat scroll 0 0 / cover ;
+  2950  }
+  2951: .about_services_faq {
+  2952:   background: rgba(0, 0, 0, 0) url("../images/about_services_faq_bg.jpg") no-repeat scroll 0 0 / cover ;
+  2953  }
+  2954: .support_faq {
+  2955:   background: rgba(0, 0, 0, 0) url("../images/support_faq_bg.jpg") no-repeat scroll 0 0 / cover ;
+  2956  }
+
+  5334  }
+  5335: .faq_category {
+  5336    padding: 40px 20px;
+
+includes\footer.php:
+  43            <li><a href="page.php?type=aboutus">About Us</a></li>
+  44:             <li><a href="page.php?type=faqs">FAQs</a></li>
+  45              <li><a href="page.php?type=privacy">Privacy</a></li>
+
+includes\header.php:
+  98            <li><a href="car-listing.php">Car Listing</a>
+  99:           <li><a href="page.php?type=faqs">FAQs</a></li>
+  100            <li><a href="contact-us.php">Contact Us</a></li>

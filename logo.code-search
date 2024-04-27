@@ -1,0 +1,144 @@
+# Query: logo
+# ContextLines: 1
+
+40 results - 11 files
+
+my-booking.php:
+  96      <div class="user_profile_info gray-bg padding_4x4_40">
+  97:       <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+  98        </div>
+
+my-testimonials.php:
+  87      <div class="user_profile_info gray-bg padding_4x4_40">
+  88:       <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+  89        </div>
+
+post-testimonial.php:
+  125      <div class="user_profile_info gray-bg padding_4x4_40">
+  126:       <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+  127        </div>
+
+profile.php:
+  127      <div class="user_profile_info gray-bg padding_4x4_40">
+  128:       <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+  129        </div>
+
+update-password.php:
+  145      <div class="user_profile_info gray-bg padding_4x4_40">
+  146:       <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+  147        </div>
+
+admin\css\style.css:
+  554  }
+  555: .brand .logo {
+  556    box-sizing: border-box;
+
+  562  @media only screen and (min-width: 992px) {
+  563:   .brand .logo {
+  564      width: 250px;
+
+  566  }
+  567: .brand .logo img {
+  568    height: 20px;
+
+admin\css\style.less:
+  98  	background: #3e454c;
+  99: 	.logo{
+  100  		box-sizing: border-box;
+  w 
+admin\includes\header.php:
+   9  					<li><a href="change-password.php">Change Password</a></li>
+  10: 					<li><a href="logout.php">Logout</a></li>
+  11  				</ul>
+
+assets\css\style.css:
+   782  }
+   783: .logo {
+   784    float:left;
+
+  1730  }
+  1731: .brand-logo-list {
+  1732    float: right;
+
+  1737  
+  1738: .brand-logo-list a img {
+  1739    margin: 0 auto;
+  1740  }
+  1741: .brand-logo-list .owl-controls.clickable {
+  1742  	display:none !important;
+
+  1949  }
+  1950: .header_style2 .logo {
+  1951    margin: 20px 0;
+
+  3639  }
+  3640: .upload_user_logo {
+  3641    float: left;
+
+  3644  }
+  3645: .upload_newlogo {
+  3646    background-color: rgba(0, 0, 0, 0.8);
+  3647:   background-image: url("../images/change_logo.png");
+  3648    background-position: center center;
+
+  3655  }
+  3656: .upload_newlogo input {
+  3657    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+
+  3670  }
+  3671: .upload_user_logo img {
+  3672  	max-width:100%;
+
+  3866  
+  3867: .dealer_logo {
+  3868    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  3872  }
+  3873: .dealer_logo img {
+  3874  	max-width:100%;
+
+  3949  }
+  3950: .dealers_listing .dealer_logo {
+  3951    padding: 12px;
+
+  4337  }
+  4338: .brand-logo-list {
+  4339    float: none;
+
+  4546  }
+  4547: .dealer_logo {
+  4548    margin-bottom: 20px;
+
+  4593  }
+  4594: .upload_user_logo {
+  4595    width: 160px;
+
+  4755  }
+  4756: .header_style2 .logo {
+  4757    margin: 0;
+
+  4875  }
+  4876: .upload_user_logo {
+  4877    float: none;
+
+  4999  }
+  5000: .brand-logo-list {
+  5001    width: 86%;
+
+  5093  }
+  5094: .dealer_logo {
+  5095    padding: 14px;
+
+includes\header.php:
+   6          <div class="col-sm-3 col-md-2">
+   7:           <div class="logo"> <a href="index.php"><img src="assets/images/car-rental-logo-design-vector-44641939.jpg" alt="image"/></a> </div>
+   8          </div>
+
+  78            <li><a href="my-testimonials.php">My Testimonial</a></li>
+  79:             <li><a href="logout.php">Sign Out</a></li>
+  80              <?php } ?>
+
+includes\sidebar.php:
+  7                 <li><a href="my-testimonials.php">My Testimonials</a></li>
+  8:             <li><a href="logout.php">Sign Out</a></li>
+  9            </ul>
